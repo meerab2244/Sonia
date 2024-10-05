@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.grayText {
+    color: #919191;
+}
+
+.heading {
+    text-transform: uppercase;
+    color: #212529;
+    margin-bottom: 10px;
+}
+
+.lightBlue {
+    color: #72AEC8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+
+}
+
+#hero {
+    background-color: #edf1f3;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.btn {
+    background-color: #212529;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 20px;
+}
+
+#features {
+    padding: 70px 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .top-nav,
+    .menu ul {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .boxes {
+        flex-direction: row;
+
+    }
+
+}
+
+.Pogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin:30px auto;
+}
+.gg{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px auto;
+    align-items: center;
+   
+}
+.hee{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px auto;
+}
+.jk{
+    width:100%;
+}
+.hjk{
+   
+    margin:20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tour{
+    width: 100%;
+}
+
+.clr{
+    color: grey;
+}
+#frend{
+    background-color: #edf1f3;
+}
+.frend-1{
+    display: flex;
+    justify-content: space-between;
+}
+.frend-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.frend-left h2{
+    font-size:70px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.pogo-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+   
